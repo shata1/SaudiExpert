@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="purple_200">#ACECA3</color>
+    <color name="purple_500">#187C60</color>
+    <color name="purple_700">#187C60</color>
+    <color name="teal_200">#ACECA3</color>
+    <color name="teal_700">#ACECA3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="greenDark">#187C60</color>
+    <color name="green">#ACECA3</color>
+    <color name="greenLight">#E6F6F0</color>
+
+    <color name="colorLight">#f0f0f0</color>
+
+    <color name="backgroundBottomNavigation">#E6F6F0</color>
+    <color name="backgroundNavigationItemChecked">#187C60</color>
+    <color name="backgroundNavigationItemUnChecked">#80808080</color>
+
+    <color name="backgroundImageTrue">#32bea6</color>
+    <color name="backgroundImageFalse">#e24c4b</color>
+    <color name="backgroundImageChecked">#80808080</color>
+
+    <color name="colorRed">#FF0000</color>
+    <color name="colorGreen">#008000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorBlackLight">#80000000</color>
+    <color name="colorGray">#80808080</color>
+
+</resources>

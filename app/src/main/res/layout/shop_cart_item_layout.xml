@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tourID"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_gray"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="@dimen/_4sdp"
+            android:hint="Tour"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tourGuideName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_gray"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="@dimen/_4sdp"
+            android:hint="Tour Guide"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/border_gray"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="@dimen/_4sdp"
+            android:hint="Date"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.25"
+            android:background="@drawable/border_gray"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="@dimen/_4sdp"
+            android:hint="Time"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_gray"
+            android:gravity="center"
+            android:maxLines="1"
+            android:padding="@dimen/_4sdp"
+            android:hint="Status"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/border_gray"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/_4sdp">
+
+            <ImageButton
+                android:id="@+id/cancel"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/_2sdp"
+                android:layout_marginEnd="@dimen/_2sdp"
+                android:layout_weight="1"
+                android:background="@drawable/background_image"
+                android:backgroundTint="@color/backgroundImageFalse"
+                android:src="@drawable/ic_false" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

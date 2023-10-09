@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="ltr">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:layout_marginTop="@dimen/_8sdp"
+        android:layout_marginEnd="@dimen/_8sdp"
+        android:background="@drawable/tour_item_border_round"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/tourImage"
+            android:layout_width="@dimen/_100sdp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:background="@drawable/border_round_white"
+            android:scaleType="centerCrop"
+            android:src="@drawable/image"
+            app:shapeAppearanceOverlay="@style/roundImageView"
+            tools:ignore="MissingConstraints" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/tourTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:hint="Half_Day City Tour "
+                android:maxLines="1"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13ssp" />
+
+            <TextView
+                android:id="@+id/tourDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@id/tourLocation"
+                android:layout_below="@id/tourTitle"
+                android:layout_marginBottom="@dimen/_3sdp"
+                android:hint="Half_Day City THalf_Day City Tour Half_Day City Tour Half_Day CityHalf_Day City Tour Half_Day City Tour Half_Day City Tour  Half_Day City Tour "
+                android:maxLines="2"
+                android:textColor="@color/colorBlackLight"
+                android:textSize="@dimen/_8ssp" />
+
+            <TextView
+                android:id="@+id/tourLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_toStartOf="@id/showMore"
+                android:hint="location:Riyadh"
+                android:maxLines="1"
+                android:textSize="@dimen/_9ssp" />
+
+            <TextView
+                android:id="@+id/showMore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:hint="Show more"
+                android:maxLines="1"
+                android:textSize="@dimen/_10ssp" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
