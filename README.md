@@ -32,7 +32,7 @@
 
 * Target Audience:
   - Saudi Expert targets both local residents and international tourists interested in exploring the diverse tourist attractions and experiences offered by Saudi Arabia.
-  - 
+   
 * Future Enhancements:
   - Multi-Language Support: Add support for multiple languages to cater to a diverse user base.
   - Integration with Local Partners: Collaborate with local tour operators, hotels, and transportation services to offer comprehensive travel packages and discounts.
